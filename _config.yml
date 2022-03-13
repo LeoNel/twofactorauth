@@ -1,21 +1,21 @@
+title: 2FA Directory
+url: https://2fa.directory
 permalink: pretty
 markdown: kramdown
-
-title: Two Factor Auth List
-author: Josh Davis
-description:
-    List of sites with Two Factor Auth support which includes SMS, email,
-    phone calls, hardware, and software.
-url: http://twofactorauth.org
-repo: https://github.com/2factorauth/twofactorauth
-img: img/logo.png
-
+twitter: 2faorg
+social_image: https://repository-images.githubusercontent.com/17724730/63495880-b408-11e9-8cc4-03451aa4cc14
+category-buttons: 6
 exclude:
-    - CNAME
-    - CONTRIBUTING.md
-    - EXCLUSION.md
-    - Gemfile
-    - LICENSE
-    - README.md
-    - Rakefile
-    - verify.rb
+  - EXCLUSION.md
+  - CODE_OF_CONDUCT.md
+  - CONTRIBUTING.md
+  - LICENSE.md
+  - README.md
+  - Gemfile
+  - Dockerfile
+  - "*.lock"
+  - ".*"
+  - vendor/
+  - scripts/
+  - tests/
+theme: null
